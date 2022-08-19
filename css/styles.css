@@ -222,6 +222,10 @@ img {
     align-items: flex-start;
 }
 
+.item-about {
+    flex-basis: calc((100%-90px)/4);
+}
+
 .item-about:not(:last-child),
 .photo-items:not(:last-child),
 .item-staff:not(:last-child) {
